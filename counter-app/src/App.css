@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+.header{
+  background-color: yellow;
+  width:400px;
+  margin: auto;
+  border-radius: 25px;
+  color:white;
+  background-color: blue;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.header:hover{
+  color:gray;
+  cursor:pointer;
+}
+.counter-container{
+  
+  padding-top: 10px;
+  background-color: #097977;
+  width: 500px;
+  margin: auto;
+  height: 250px;
+  border-radius: 25px;
+}
+.button-container{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+button{
+  border-radius: 25px;
+  border:1px;
+  height: 20px;
+  width: 100px;
+  background-color: aqua;
+}
+button:hover{
+  color:aquamarine;
+  cursor: pointer;
+  background: #282c34;
+  
+}
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
